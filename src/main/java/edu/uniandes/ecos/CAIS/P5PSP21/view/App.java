@@ -27,14 +27,7 @@ public class App {
             program5.readFiles(path);
             Iterator it = program5.getFunctions().iterator();
 
-            while (it.hasNext()) {
-                Function fx = (Function) it.next();
-                System.out.println("Funcion: " + fx.getX());
-                System.out.println("DOF: " + fx.getDof());
-                System.out.println("Valor: " + fx.getP());
-            }
 
-            /**
             staticFileLocation("/public");
 
             port(Integer.valueOf(System.getenv("PORT")));
@@ -51,7 +44,7 @@ public class App {
                     System.out.println("Valor: " + fx.getP());
                 }
                 return response;
-            });*/
+            });
         } catch (IOException ex) {
             Logger.getLogger(App.class.getName()).log(Level.SEVERE, null, ex);
         }

@@ -95,7 +95,7 @@
                     </descriptorRefs>
                     <archive>
                         <manifest>
-                            <mainClass>edu.uniandes.ecos.CAIS.P5PSP21.App</mainClass>
+                            <mainClass>edu.uniandes.ecos.CAIS.P5PSP21.view.App</mainClass>
                         </manifest>
                     </archive>
                 </configuration>
